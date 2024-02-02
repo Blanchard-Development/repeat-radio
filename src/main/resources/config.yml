@@ -1,0 +1,33 @@
+# Token to run the bot with
+token: "PUT_BOT_TOKEN_HERE"
+
+# Database to use for BotCommands dependency (THIS IS NOT FOR THE BOTS DATA)
+# Supports: MariaDB, SQLite, PostgreSQL, H2
+database: "PUT_CONNECTION_STRING_HERE"
+
+# Owner IDs of the bot
+owners:
+  primary: 242385234992037888 # srnyx
+  other:
+    - 533985117589471233 # reecetd
+    - 697588547217260545 # ekenz_
+    - 275122446007271426 # miniwraith
+
+# The status of the bot
+status:
+  type: CUSTOM_STATUS # PLAYING, WATCHING, LISTENING, CUSTOM_STATUS
+  message: "average blanchard W"
+
+# Time between each playing of the audio
+interval: 1600 # seconds
+
+# The path to the audio file to play
+file: "audio.mp3"
+
+# Settings regarding the main guild for the bot
+guild:
+  # The ID of the guild
+  id: 1070565606203600996
+
+  # The ID of the voice/stage channel to play the audio in
+  channel: 1071570963495387226

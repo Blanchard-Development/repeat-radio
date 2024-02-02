@@ -1,0 +1,10 @@
+# Intellij
+.idea/
+
+# Gradle
+.gradle/
+build/
+
+# Bot
+/logs/*
+/config.yml
